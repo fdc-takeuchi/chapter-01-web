@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+body {
+  background: #dcdcdc;
+  margin:0;
+  font-size: 18px;
+}
+
+.header-all{
+	width: 100%;
+	display: flex;
+	justify-content: space-between; /* 左右に分ける */
+	align-items: center; 
+	padding-left: 30px;
+}
+
+a{
+	text-decoration: none; /* 下線を消す */
+	color: inherit;    
+}
+
+.profile{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.profile h2{
+	text-align: center;
+}
+
+.profile-person{
+	width: 40%;
+	background: #F5F5F5;
+	padding: 20px;
+	margin: 20px 0;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.30);
+	
+}
+
+.profile-hobby{
+	width: 40%;
+	background: #F5F5F5;
+	padding: 20px;
+	margin: 20px 0;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.30);
+}
+
+@media (max-width: 600px){
+	.profile{
+		display: block;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
+@media (max-width: 600px){
+	.profile-person{
+		width:90%;
+		margin: 30px auto;
+	}
+}
+
+@media (max-width: 600px){
+	.profile-hobby{
+		width:90%;
+		margin: 30px auto;
+	}
+}
+
+.red{
+	 color:red;
+}
+
+.green{
+	color:green;
+}
+
+
+
+.news{
+	background: #F5F5F5;
+	padding: 20px 20px 50px;
+	margin: 70px 300px 20px;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.30);
+	text-align: left;
+	align-items: center;
+	
+}
+
+
+
+.news-head{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.news p{
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0;
+	transition: 0.2s;
+}
+
+.news p:hover {
+  background: #f0f0f0;
+  transform: translateX(5px);
+}
+
+.news-one{
+	margin-left: 15px;
+}
+.news-two{
+	margin-left: 15px;
+}
+.news-three{
+	margin-left: 15px;
+}
+
+
+
+span{
+	margin-right: 10px;
+}
+
+
+@media (max-width: 600px){
+	.news{
+		width:90%;
+		margin: 30px auto;
+	}
+
+	
+} 
+
+h2{
+	background: rgba(0, 0, 0, 0.08);
+	padding: 10px 30px;
+	border-radius: 3px;
+}
